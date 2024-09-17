@@ -1,7 +1,15 @@
-import Image from "next/image";
 
-export default function Home() {
+import LandingPage from "@/components/LandingPage";
+import FlickeringGrid from "@/components/magicui/flickering-grid";
+
+export default async function Home() {
   return (
-  <div>Hello chanp</div>
+    <>
+      {/* FlickeringGrid as the background */}
+      {/* LandingPage content */}
+      <div >
+        <LandingPage />
+      </div>
+    </>
   );
 }
